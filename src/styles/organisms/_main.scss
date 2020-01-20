@@ -52,7 +52,7 @@
 
     .main-content{
         margin: auto 0; 
-        padding-left: 61px;
+        padding-left: 58px;
         padding-right: 67px;
     }
 
@@ -66,6 +66,10 @@
 
        &--title{
             margin-bottom: 8px;
+       }
+
+       &--button{
+           margin-left: 6px;
        }
 
     }

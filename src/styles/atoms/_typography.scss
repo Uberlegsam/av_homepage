@@ -8,9 +8,22 @@
     color: $white;
     letter-spacing: 0.5px;
 
-    mark{
-        background: linear-gradient(to right, #116e95, 4%, rgba(22, 194, 184, 0) 99%);  
+    span{
+        position: relative;
         color: $white;
+    }
+
+    span::after{
+        content: "";
+        position: absolute;
+        // background: linear-gradient(to right, #116e95, 4%, rgba(22, 194, 184, 0) 99%);  
+        width: 195px;
+        height: 44px;
+        opacity: 0.39;
+        background: linear-gradient(to right, #116e95 4%, rgba(22, 194, 184, 0) 99%);        
+        
+        top: 0;
+        left: 0;
     }
 }
 

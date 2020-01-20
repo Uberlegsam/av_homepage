@@ -122,8 +122,10 @@ input[name="Duration"]{
 
 
         input[type="text"]:nth-child(2){
-            border: none
-            
+            border: none;
+            border-top: 1px solid $rockBlue;
+            border-bottom: 1px solid $rockBlue;
+                
         }
         
 }
