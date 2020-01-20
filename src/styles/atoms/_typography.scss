@@ -1,0 +1,92 @@
+.title{
+    font-family: $font-main;
+    font-size: 48px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    color: $white;
+    letter-spacing: 0.5px;
+
+    mark{
+        background: linear-gradient(to right, #116e95, 4%, rgba(22, 194, 184, 0) 99%);  
+        color: $white;
+    }
+}
+
+.desc{
+    font-family: $font-main;
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 22px;
+    letter-spacing: 0.69px;
+    color: $white;
+
+    &--placeholder{
+        font-weight: 500;
+        letter-spacing: 0.47px;
+        color: $rhino;
+    }   
+    &--mobile{
+        font-family: $font-main;
+        font-size: 14px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 22px;
+        letter-spacing: 0.69px;
+        color: $white;
+        display: none;
+    } 
+}
+
+
+
+.caption{
+    font-family: $font-main;
+    font-size: 12px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 22px;
+    letter-spacing: 0.6px;
+    color: $rhino;
+    
+    &--white{
+        color: $white;
+        font-weight: 300;
+
+        a{
+            color: $seaGreen;
+        }
+    }
+}
+
+@media (max-width: 375px){
+    .title{
+        font-family: $font-main;
+        font-size: 36px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        color: $white;
+        letter-spacing: 0.9px;
+    }
+
+     .desc{
+         
+
+         &--desktop{
+            display: none;
+         }
+
+        &--mobile{
+             display: block;
+         } 
+ }
+
+
+}

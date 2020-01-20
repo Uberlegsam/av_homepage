@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TopAgentsRanked</title>
+    <link rel="stylesheet" href="dist/styles/index.min.css">
+    <link rel="stylesheet" href="dist/styles/swiper.css">
+
+    <script src="src/js/mobile.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <div class="burger-menu">
+            <span class="burger-menu-lines"></span>
+        </div>
+        <div class="header__logo">
+            <img src="src/images/logo.svg"/>
+        </div>
+        <nav class="header__navigation">
+            <ul>
+                <li><a class="caption" href="#">DESTINATIONS</a></li>
+                <li><a class="caption" href="#">STYLE OF TRAVEL</a></li>
+                <li><a class="caption" href="#">ABOUT US</a></li>
+            </ul>
+            <ul>
+                <li class="navigation__item navigation__item--icons">
+                    <a href="#"><i class="icon-phone"></i></a>
+                </li>
+                <li class="navigation__item navigation__item--icons">
+                    <a href="#"><i class="icon-account"></i></a>
+                </li>
+                <li class="navigation__item navigation__item--icons">
+                    <a href="#"><i class="icon-cart"></i></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class='main'>
+        <div class='main__text'>
+            <div class="main-content">
+                <h2 class="main__text--title title">Travel <mark>Agents</mark> Portal</h2>
+                <p class="desc desc--desktop">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem </p>
+                <p class="desc desc--mobile">Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+                <button class=" main__text--button button" type="submit" >Create an Account</button>
+                <p class="caption caption--white">Have an Account Already? <a href="#">Login Now</a></p>
+            </div>
+        </div>
+        <div class="main__slider">
+                <div class="swiper-wrapper">
+                    <div class="slide__item swiper-slide">
+                        <img class="slide__image" src="./src/images/destination/slider-image.png" alt="">
+                        <div class="slide__plate">
+                            <p class="slide__plate_subtitle">DESTINATIONS</p>
+                            <p class="slide__plate_title">north america</p>
+                        </div>
+                    </div>
+                    <div class="slide__item swiper-slide">
+                        <img class="slide__image" src="./src/images/destination/brazil.jpg" alt="">
+                        <div class="slide__plate">
+                            <p class="slide__plate_subtitle">DESTINATIONS</p>
+                            <p class="slide__plate_title">brazil</p>
+                        </div>
+                    </div> 
+                    <div class="slide__item swiper-slide">
+                        <img class="slide__image" src="./src/images/destination/south.jpg" alt="">
+                        <div class="slide__plate">
+                            <p class="slide__plate_subtitle">DESTINATIONS</p>
+                            <p class="slide__plate_title">south america</p>
+                        </div>
+                    </div>
+                    <div class="slide__item swiper-slide">
+                        <img class="slide__image" src="./src/images/destination/canada.jpg" alt="">
+                        <div class="slide__plate">
+                            <p class="slide__plate_subtitle">DESTINATIONS</p>
+                            <p class="slide__plate_title">canada</p>
+                        </div>
+                    </div>    
+                </div>
+                <div class="swiper-pagination indicators"></div>
+        </div>
+        <div class="footer">
+            <form class="footer__form">
+                <input class="ftr desc desc--placeholder" type="text" name="Destination"  value="" placeholder="Where do you want to go?"/>
+                <input class="ftr desc desc--placeholder" type="text" value="" name="When" placeholder="When" />
+                <input class="ftr desc desc--placeholder" type="text" value="" name="Duration" placeholder="Duration"/>
+                <button type="submit" class="ftr footer__button button" ><div class="arrow"></div></button>
+            </form>
+        </div>
+    </section>
+
+    <script src="src/js/swiper.js"></script>
+    <script src="src/js/main__slider.js"></script>
+    
+</body>
+</html>

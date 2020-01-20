@@ -1,0 +1,129 @@
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    box-shadow: 0 6px 21px 0 rgba(140, 160, 191, 0.24);
+    background-color: $white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    z-index: 5;
+    width: 81.41%;
+}
+
+.footer__form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input[type="text"]:nth-child(2){
+    border-right: 1px solid $rockBlue;
+    border-left: 1px solid $rockBlue;
+    
+}
+
+.footer__button{
+    height: 89px;
+    width: 8%;
+    position: relative;
+}
+
+input[type="text"],
+input[type="date"]
+{   
+    height: 89px;
+    border: none;
+    outline: none;
+}
+
+.footer__form{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input[name="Destination"]{
+    background-image: url('/src/images/icons/location.svg');
+    background-position: 24px;
+    background-repeat: no-repeat;
+    width: 54.5%;
+    padding-left: 53px;
+    padding-right: 27px;
+    
+
+}
+
+input[name="When"]{
+    background-image: url('/src/images/icons/favorite.svg');
+    background-position: 24px;
+    background-repeat: no-repeat;
+    width: 18.43%;
+    padding-left: 55px;
+}
+
+input[name="Duration"]{
+    background-image: url('/src/images/icons/bed.svg');
+    background-position: 24px;
+    background-repeat: no-repeat;
+    width: 19.07%;
+    padding-left: 61px;
+}
+
+
+
+
+
+@media (max-width: 992px){
+
+    .footer{
+        position: static;
+        transform: none;
+        width: auto;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin-bottom: 47px;
+        margin-top: 110px
+    }
+
+    input[type="text"],
+    .footer__button
+    {   
+        display: none;
+        border: none;
+    }
+
+    input[type="text"]:first-child
+    {   
+        opacity: 1;
+        display: block;
+    }
+
+    input[type="text"],
+    .footer__button{
+        width: 100%;
+        height: 60px !important;
+    }
+
+    .footer__form{
+            display: flex;
+            flex-direction: column;
+        }
+
+        
+        .footer__button{
+            height: 89px;
+            width: 100%;
+            position: relative;
+        }
+
+
+        input[type="text"]:nth-child(2){
+            border: none
+            
+        }
+        
+}

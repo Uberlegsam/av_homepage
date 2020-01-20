@@ -1,0 +1,42 @@
+[class^="icon"] {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.icon-account{
+    background-image: url($icons+"/account.svg");
+    width: 13px;
+    height: 19px;   
+}
+
+.icon-phone{
+    background-image: url($icons+"/phone.svg");
+    width: 18px;
+    height: 18px;   
+}
+
+.icon-cart{
+    background-image: url($icons+"/cart.svg");
+    width: 23px;
+    height: 19px;   
+}
+
+.icon-location{
+    background-image: url($icons+"/location.svg");
+    width: 15px;
+    height: 25px;   
+}
+
+.icon-favorite{
+    background-image: url($icons+"/favorite.svg");
+    width: 23px;
+    height: 23px;   
+}
+
+.icon-bed{
+    background-image: url($icons+"/bed.svg");
+    width: 26px;
+    height: 20px;   
+}
