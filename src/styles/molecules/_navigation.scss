@@ -64,12 +64,27 @@
                 line-height: 60px;
                 display: block;
                 padding: 0 !important;
+                position: relative;
 
                 a{
-                    padding: 17px 15px 22px 17px ;
+                    padding: 18px 15px 22px 17px ;
                 }
 
             }
+
+            li:last-child::after{
+                content: "";
+                position: absolute;
+                top: 17px;
+                right: 16px;
+                width: 7px;
+                height: 7px;
+                border-radius: 50%;
+                background-color: $seaGreen;
+            }
+
+
+
         }
     }
 }
