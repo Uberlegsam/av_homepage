@@ -89,6 +89,18 @@ input[name="Duration"]{
         margin-top: 110px
     }
 
+    input[name="When"]{
+        background-position: 19px;
+        padding-left: 53px;
+        padding-bottom: 3px;
+    }
+
+    input[name="Duration"]{
+        background-position: 17px;
+        padding-left: 53px;
+        padding-bottom: 3px;
+    }
+
     input[type="text"],
     .footer__button
     {   
